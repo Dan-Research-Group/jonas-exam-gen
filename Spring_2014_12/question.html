@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+  code {
+    color: black;
+    padding: 2px;
+    fonnt-size: 105%;
+  }
+  div.one{
+    text-indent: 50px;
+  }
+  div.two{
+    text-indent: 75px;
+  }
+  div.three{
+    text-indent: 100px;
+  }
+
+</style>
+</head>
+<body>
+
+<pl-question-panel>
+  <p>
+      <code><b>
+        	def mystery1(L):
+      		<br>
+            	<div class="one"> DB = {}</div> <br>
+                <div class="one"> for word in L:</div><br>
+                <div class="two"> if word in DB: </div><br>
+                <div class="three">DB[word] = DB[word] + {{params.multiplier}}</div><br>
+                <div class="two"> else: </div><br>
+                <div class="three">DB[word] = 1</div><br>
+                <div class="one"> return DB</div> <br>
+                </b></code>
+  </p>
+  <p>
+    <code><b>Fill in the list input to mystery1 that  results in the returned value </b><code></p>
+</pl-question-panel>
+
+<pl-string-input answers-name="solution" label=">>>"></pl-string-input>
+
+<html>
+<head>
+<style>
+  code {
+    color: black;
+    padding: 2px;
+    fonnt-size: 105%;
+  }
+  div.one{
+    text-indent: 50px;
+  }
+  div.two{
+    text-indent: 75px;
+  }
+  div.three{
+    text-indent: 100px;
+  }
+
+</style>
+</head>
+<body>
+
+<pl-question-panel>
+  <p>
+    <code>
+    <b>
+  {{params.final}}
+  </b>
+  </code>
+  </p>
+</pl-question-panel>
